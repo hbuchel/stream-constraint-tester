@@ -1,0 +1,17 @@
+html, body, #root {
+  width: 100%;
+  height: 100%;
+}
+
+html {
+  box-sizing: border-box;
+}
+html *, html *:before, html *:after {
+  box-sizing: inherit;
+}
+
+body {
+  background: blueviolet;
+  margin: 0;
+  font-family: sans-serif;
+}
